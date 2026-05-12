@@ -7,6 +7,7 @@ A JSON envelope for eval run provenance, environment, code SHA, judge card, cont
 ```bash
 pip install eval-run-manifest
 eval-run-manifest build examples
+eval-run-manifest validate examples/judge_bench_manifest.json
 ```
 
 ## What This Is Not

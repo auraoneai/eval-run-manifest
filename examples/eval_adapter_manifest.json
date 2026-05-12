@@ -1,0 +1,17 @@
+{
+  "run_id": "synthetic-eval-adapter",
+  "timestamp": "2026-05-11T00:00:00Z",
+  "code_sha": "local",
+  "env": {
+    "runner": "inspect_ai",
+    "python": "3.11"
+  },
+  "rubric_ref": "rubric-spec.json",
+  "judge_card_ref": "judge-card.json",
+  "contamination_report_ref": "contamination-report.json",
+  "dataset_card_refs": [
+    "tutorial-dataset-card.json"
+  ],
+  "results_digest": "sha256:synthetic-eval-adapter-results",
+  "signature": null
+}

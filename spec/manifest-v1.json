@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "required": [
+    "run_id",
+    "timestamp",
+    "code_sha",
+    "env",
+    "rubric_ref",
+    "judge_card_ref",
+    "contamination_report_ref",
+    "dataset_card_refs",
+    "results_digest"
+  ],
+  "properties": {
+    "signature": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

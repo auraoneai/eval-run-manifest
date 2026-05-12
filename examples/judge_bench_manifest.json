@@ -1,0 +1,12 @@
+{
+  "run_id": "synthetic",
+  "timestamp": "2026-05-11T00:00:00Z",
+  "code_sha": "local",
+  "env": {},
+  "rubric_ref": "rubric.json",
+  "judge_card_ref": "card.json",
+  "contamination_report_ref": "contamination.json",
+  "dataset_card_refs": [],
+  "results_digest": "abc",
+  "signature": null
+}

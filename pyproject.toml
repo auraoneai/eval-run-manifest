@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "eval-run-manifest"
 version = "0.1.2"
-description = "Build and validate eval-run provenance manifests with deterministic directory digests."
+description = "LLM evaluation run manifest: build and validate eval-run provenance manifests with deterministic directory digests."
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
@@ -26,7 +26,8 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/auraoneai/eval-run-manifest"
+Homepage = "https://auraone.ai/open/evalkit"
+Source = "https://github.com/auraoneai/eval-run-manifest"
 Documentation = "https://github.com/auraoneai/eval-run-manifest#readme"
 Repository = "https://github.com/auraoneai/eval-run-manifest.git"
 Issues = "https://github.com/auraoneai/eval-run-manifest/issues"

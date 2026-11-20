@@ -1,5 +1,16 @@
 # eval-run-manifest
 
+**LLM evaluation run manifest**: a portable provenance record and directory digest for an eval run.
+
+> Part of [AuraOne EvalKit](https://auraone.ai/open/evalkit). Build a manifest over an EvalKit run directory to archive the rubric, results, and code SHA together.
+
+## Quick Start
+
+```bash
+python -m pip install eval-run-manifest==0.1.2
+eval-run-manifest build examples --out manifest.json
+```
+
 Build a portable JSON record of an evaluation run's provenance and directory digest.
 
 `eval-run-manifest` is for evaluation engineers, release reviewers, and reproducibility owners who need to archive which run directory, code SHA, Python version, rubric, judge card, contamination report, dataset cards, and result bytes were associated with an evaluation. Its differentiator is a deterministic digest over relative paths and file bytes alongside explicit artifact references, without claiming cryptographic signing.
